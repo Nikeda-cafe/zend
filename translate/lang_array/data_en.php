@@ -1,0 +1,7 @@
+<?php
+return array(
+	'morning' => 'Good Morning',
+	'afternoon' => 'Hello',
+	'night' => 'Good Night',
+	'now' => 'It is %1$s now'
+);

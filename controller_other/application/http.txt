@@ -1,0 +1,3 @@
+yyamada:MyAuth:12345++
+skakeya:MyAuth:12345++
+tsuzuki:MyAuth:12345++

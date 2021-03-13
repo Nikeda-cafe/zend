@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+	<body>
+		<tu tuid='morning'>
+			<tuv xml:lang="en">
+				<seg>Good Morning</seg>
+			</tuv>
+			<tuv xml:lang="ja">
+				<seg>おはようございます</seg>
+			</tuv>
+			<tuv xml:lang="de">
+				<seg>Guten Morgen</seg>
+			</tuv>
+		</tu>
+		<tu tuid='afternoon'>
+			<tuv xml:lang="en">
+				<seg>Hello</seg>
+			</tuv>
+			<tuv xml:lang="ja">
+				<seg>こんにちは</seg>
+			</tuv>
+			<tuv xml:lang="de">
+				<seg>Guten Tag</seg>
+			</tuv>
+		</tu>
+		<tu tuid='night'>
+			<tuv xml:lang="en">
+				<seg>Good Night</seg>
+			</tuv>
+			<tuv xml:lang="ja">
+				<seg>おやすみなさい</seg>
+			</tuv>
+			<tuv xml:lang="de">
+				<seg>Guten Nacht</seg>
+			</tuv>
+		<tu tuid='now'>
+			<tuv xml:lang="en">
+				<seg>It is %1$s now</seg>
+			</tuv>
+			<tuv xml:lang="ja">
+				<seg>現在時刻は %1$s です</seg>
+			</tuv>
+			<tuv xml:lang="de">
+				<seg>Es ist jetzt %1$s</seg>
+			</tuv>
+		</tu>
+		</tu>
+	</body>
+</tmx>

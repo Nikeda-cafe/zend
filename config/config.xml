@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<flag>1</flag>
+	<!-- 本番環境の設定 -->
+	<release>
+		<adapter>Pdo_Mysql</adapter>
+		<params>
+			<host>examples.co.jp</host>
+			<dbname>samples</dbname>
+			<username>zend</username>
+			<password>98765</password>
+		</params>
+	</release>
+	<!-- デバッグ環境の設定情報（releaseセクションを継承） -->
+	<debug extends="release">
+		<params>
+			<host>localhost2</host>
+			<username>root</username>
+			<password>12345</password>
+		</params>
+	</debug>
+</config>

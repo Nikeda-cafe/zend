@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteBase /zend/controller2/
+RewriteRule !\.(js|ico|gif|jpg|png|css)$ index.php

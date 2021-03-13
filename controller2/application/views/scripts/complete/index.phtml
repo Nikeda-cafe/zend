@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>AutoCompleteアクションヘルパー</title>
+<script type="text/javascript" src="/zend/controller2/js/prototype.js"></script>
+<script type="text/javascript" src="/zend/controller2/js/scriptaculous.js"></script>
+<script type="text/javascript">
+<!--
+window.onload = function() {
+	new Ajax.Autocompleter(
+		'keywd',
+		'list',
+		'/zend/controller2/complete/list',
+		{
+			'paramName' : 'keywd'
+		}
+	);
+}
+//-->
+</script>
+</head>
+<body>
+<form>
+<input type="text" id="keywd" size="30" maxlength="100" />
+<div id="list"></div>
+</form>
+</body>
+</html>
